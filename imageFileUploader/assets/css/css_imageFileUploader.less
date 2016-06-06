@@ -1,0 +1,49 @@
+.image-file-uploader{
+    width: 100%;
+    display: block;
+
+    ul.photo-list{
+        display: block;
+        height: auto;
+        padding: 0;
+        width: 100%;
+
+        li{
+            width: 100px;
+            height: auto;
+            position: relative;
+            float: left;
+            margin: 0 10px 10px 0;
+            padding: 0;
+            list-style: none;
+
+            img{
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+            }
+
+            .btn-remove{
+                    background-color: #aaa;
+                    border: 3px solid #fff;
+                    border-radius: 30px;
+                    height: 30px;
+                    padding: 2px 5px;
+                    position: absolute;
+                    right: -12px;
+                    top: -12px;
+                    width: 30px;
+
+                &:hover{
+                    background-color: #000;
+                    color: #FFF;
+                    cursor: pointer;
+                }
+
+                i{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
